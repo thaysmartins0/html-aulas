@@ -2,14 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <h1>Formulário de Cadastro</h1>
-    Informe seu login:
-    <input type="text" name="usuario" id="usuario"><br>
-    Informe sua senha
-    <input type="passowrd" name="senha" id="senha"
+    <h2>Inicio do Formulário</h2>
+    <form action= "" method="post">
+        Informe seu nome completo:<br/>
+        <input type="text" name="nome" id="nome">
+        Selecione o tipo de combustível:</br>
+        <input type="radio" name="gas" id="gas" value="combus">Gasolina<br/>
+        <input type="radio" name="alc" id="alc" value="combus">Álcool<br/>
+        <input type="radio" name="gnv" id="gnv" value="combus">GNV<br/>
+        <input type="radio" name="flex" id="flex" value="combus">Flex<br/>
+    </form>
 </body>
 </html>
